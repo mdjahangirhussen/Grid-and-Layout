@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: #ddd;
+    
+}
+.container{
+    width:1200px;
+    margin: 0 auto;
+}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6{
+    float:left;
+    box-sizing: border-box;
+    padding:20px;
+    margin-bottom:5px;
+}
+.col-1{
+    width: 100%;
+}
+.col-2{
+    width: 50%;
+}
+.col-3{
+    width: 33.33%;
+}
+.col-4{
+    width: 25%;
+}
+.col-5{
+    width: 16.666667%;
+}
+.col-6{
+    width: 8.333333%;
+}
+.box-1{
+    background: seagreen;
+    height: 200px;
+}
+.box-2{
+    background: yellowgreen;
+    height: 200px;
+}
+.box-3{
+    background: seagreen;
+    height: 200px;
+}
